@@ -3,53 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Documentation</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Jakes on Devine - Capstone Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Project Name</h1>
-    <p>Project description goes here. This is a short overview of what the project is about.</p>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#project-description">Project Description</a></li>
+      <li><a href="#month1">Month 1</a></li>
+      <li><a href="#month2">Month 2</a></li>
+      <li><a href="#month3">Month 3</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="main-header">
+    <h1>Jakes on Devine</h1>
+    <p class="sub-heading">Capstone Project Spring 2025 - Team 8</p>
   </header>
 
-  <section id="team">
-    <h2>Team Members</h2>
+  <!-- Team Section -->
+  <section id="team" class="team-section">
+    <h2>Meet the Team</h2>
     <div class="team-member">
-      <img src="team-member1.jpg" alt="Team Member 1">
-      <p>Name: John Doe</p>
-      <p>Role: Developer</p>
+        <img src="images/lexieheadshot.jpg" alt="Team Member 1">
+      <h3>Alexis Lane</h3>
+      <p>Lead Developer - Responsible for frontend and backend architecture.</p>
     </div>
     <div class="team-member">
-      <img src="team-member2.jpg" alt="Team Member 2">
-      <p>Name: Jane Smith</p>
-      <p>Role: Designer</p>
+        <img src="images/mikeheadshot2.jpg" alt="Team Member 2">
+      <h3>Mike Frank</h3>
+      <p>UI/UX Designer - Focused on user interface design and user experience.</p>
     </div>
-    <!-- Add more team members as needed -->
+    <div class="team-member">
+        <img src="images/meganheadshot.jpg" alt="Team Member 3">
+      <h3>Megan Flynn</h3>
+      <p>Project Manager - Oversees project timeline and team coordination.</p>
+    </div>
   </section>
 
-  <section id="month1">
-    <h2>Month 1: Planning and Setup</h2>
-    <p>Details about Month 1 progress...</p>
+  <!-- Project Description Section -->
+  <section id="project-description" class="project-description">
+    <h2>Project Description</h2>
+    <p>Jakes on Devine is an innovative platform that aims to revolutionize the way restaurant orders are managed, focusing on simplicity, speed, and customer satisfaction. The project leverages cutting-edge technologies and modern UI/UX principles to deliver a seamless experience for both restaurant staff and customers.</p>
   </section>
 
-  <section id="month2">
+  <!-- Monthly Progress Sections -->
+  <section id="month1" class="monthly-progress">
+    <h2>Month 1: Planning & Setup</h2>
+    <p>During Month 1, we focused on laying the foundation for the project, including the initial planning, technology stack selection, and setting up the project management systems.</p>
+  </section>
+
+  <section id="month2" class="monthly-progress">
     <h2>Month 2: Development</h2>
-    <p>Details about Month 2 progress...</p>
+    <p>Month 2 was all about development. We implemented the core features of the platform, including the order management system and the restaurant interface.</p>
   </section>
 
-  <section id="month3">
-    <h2>Month 3: Testing</h2>
-    <p>Details about Month 3 progress...</p>
-  </section>
-
-  <section id="month4">
-    <h2>Month 4: Finalization</h2>
-    <p>Details about Month 4 progress...</p>
+  <section id="month3" class="monthly-progress">
+    <h2>Month 3: Testing & Finalization</h2>
+    <p>In the final month, we focused on testing, debugging, and polishing the system, ensuring that the platform was user-friendly and ready for deployment.</p>
   </section>
 
   <footer>
-    <p>Created by Lexie Lane</p>
+    <p>Created by Team 8</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

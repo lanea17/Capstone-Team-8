@@ -1,43 +1,167 @@
+/* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #8a8a8a;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  header {
-    background-color: #333;
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
     color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .navbar ul li a:hover {
+    color: #a458fb;
+    border-bottom: 2px solid #a458fb;
+  }
+  
+  /* Header Section */
+  .main-header {
+    background-color: #a458fb;
     text-align: center;
-    padding: 30px;
+    padding: 100px 20px;
+    color: white;
   }
   
-  section {
-    margin: 20px;
+  .main-header h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
   }
   
-  #team {
-    display: flex;
-    justify-content: space-around;
+  .main-header .sub-heading {
+    font-size: 1.5rem;
+    font-weight: 300;
   }
   
-  .team-member {
+  /* Team Section */
+  .team-section {
     text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
   }
   
+  .team-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #a458fb;
+  }
+  
+  /* Team Member Container */
+.team-member {
+    display: inline-block;
+    width: 250px;   /* Adjusted width to match the larger images */
+    text-align: center;
+    margin: 0 20px;
+    padding-top: 0; /* Reduce padding at the top if needed */
+  }
+  
+  
+  
+  
+  /* Team Section */
   .team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 200px;  /* Increased width */
+    height: 200px; /* Increased height */
+    border-radius: 50%; /* Keeps the images circular */
+    object-fit: cover;  /* Ensures the images fill the circle without distortion */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: -20px; /* Move the image upwards */
+    transform: translateY(-20px);  /* Moves the image upwards */
   }
   
+  
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #666;
+  }
+  
+  /* Project Description Section */
+  .project-description {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .project-description h2 {
+    font-size: 2rem;
+    color: #a458fb;
+  }
+  
+  .project-description p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #333;
+  }
+  
+  /* Monthly Progress Sections */
+  .monthly-progress {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .monthly-progress h2 {
+    font-size: 2rem;
+    color: #a458fb;
+    margin-bottom: 20px;
+  }
+  
+  .monthly-progress p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Footer */
   footer {
+    text-align: center;
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 20px;
+  }
+  
+  /* Smooth Scroll for Anchor Links */
+  html {
+    scroll-behavior: smooth;
   }
   
