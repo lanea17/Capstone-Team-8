@@ -65,7 +65,7 @@ body {
   .team-section {
     text-align: center;
     padding: 60px 20px;
-    background-color: #fff;
+    background-color: #f3f3f3;
   }
   
   .team-section h2 {
@@ -163,5 +163,48 @@ body {
   /* Smooth Scroll for Anchor Links */
   html {
     scroll-behavior: smooth;
+  }
+  
+
+  /* Client Information Section */
+#client-info {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+  }
+  
+  #client-info h2 {
+    font-size: 2rem;
+    color: #a458fb;
+    margin-bottom: 20px;
+  }
+  
+  .client-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+  }
+  
+  .client-logo img {
+    width: 200px;  /* Adjust size of client logo */
+    height: auto;
+  }
+  
+  .client-info {
+    max-width: 500px;
+  }
+  
+  .client-info h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .client-info p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #666;
   }
   
