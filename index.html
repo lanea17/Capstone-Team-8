@@ -11,8 +11,8 @@
   <!-- Navigation Bar -->
   <nav class="navbar">
     <ul>
-      <li><a href="#team">Team</a></li>
       <li><a href="#client-info">Client Information</a></li>
+      <li><a href="#team">Team</a></li>
       <li><a href="#project-description">Project Description</a></li>
       <li><a href="#month1">Month 1</a></li>
       <li><a href="#month2">Month 2</a></li>
@@ -28,7 +28,7 @@
 
   <!-- Client Information Section -->
     <section id="client-info">
-        <h2>Client Information</h2>
+        <h2>CLIENT INFORMATION</h2>
         <div class="client-details">
         <div class="client-logo">
             <img src="images/Jakes Logo.png" alt="Client Logo">
@@ -44,7 +44,7 @@
 
   <!-- Team Section -->
   <section id="team" class="team-section">
-    <h2>Meet the Team</h2>
+    <h2>MEET THE TEAM</h2>
     <div class="team-member">
         <img src="images/lexieheadshot.jpg" alt="Team Member 1">
       <h3>Alexis Lane</h3>
@@ -67,23 +67,65 @@
 
   <!-- Project Description Section -->
   <section id="project-description" class="project-description">
-    <h2>Project Description</h2>
+    <h2>PROJECT DESCRIPTION</h2>
     <p>Jakes on Devine is an innovative platform that aims to revolutionize the way restaurant orders are managed, focusing on simplicity, speed, and customer satisfaction. The project leverages cutting-edge technologies and modern UI/UX principles to deliver a seamless experience for both restaurant staff and customers.</p>
   </section>
 
   <!-- Monthly Progress Sections -->
   <section id="month1" class="monthly-progress">
-    <h2>Month 1: Planning & Setup</h2>
-    <p>During Month 1, we focused on laying the foundation for the project, including the initial planning, technology stack selection, and setting up the project management systems.</p>
+    <h2>MONTH ONE: Design, Database Creation, Tech Stack</h2>
+    <p>During Month One, our team spent the beginning of the month understanding the scope
+      of our project. Dr. Stiffler was able to introduce us to the idea of a POS (Point of Sale) system, 
+      and we narrowed down what this design could look like. Minor details like types of data we could 
+      test with, ideas for databases, and even the tech stack possibilities were discussed in this first meeting.
+    </p>
+  
+    <!-- Steps / Milestones -->
+    <div class="month-steps">
+      <div class="step">
+        <h3>Schema Creation</h3>
+        <p>Began formulating our schema that would ultimately be the test data for our databases/inventory.</p>
+        <div class="image-container">
+            <img src="images/Neo4j Schema 1 Graph (1).png" alt="UI Design">
+          </div>
+      </div>
+  
+      <div class="step">
+        <h3>Database Testing</h3>
+        <p>The previous Capstone I database, which used MongoDB, was tested and showed several flaws and disadvantages. 
+            The schema that had been created earlier was used for the testing. Then, a new database technology, Neo4J, 
+            was tested based on Dr. Stiffler's recommendation. Neo4J turned out to be much easier to use, with visual 
+            data representation that made analysis simpler. Although the final decision on the database hadn't been fully made, 
+            Neo4J was fully developed and was expected to be the go-to choice for the POS system.</p>
+            <div class="logo-container">
+                <img src="images/MongoDB-Logo.png" alt="UI Design">
+                <img src="images/neo4j logo.png" alt="UI Design">
+            </div>              
+      </div>
+  
+      <div class="step">
+        <h3>Early UI Design</h3>
+        <p>Designed early-stage schema and planned data relationships for items, orders, and categories.</p>
+        <div class="image-container">
+          <img src="images/First Diagram 1.jpg" alt="UI Design">
+          <img src="images/First Diagram 2.jpg" alt="UI Design">
+        </div>
+      </div>
+    </div>
   </section>
+  
+  
+
+
+  
 
   <section id="month2" class="monthly-progress">
-    <h2>Month 2: Development</h2>
+    <h2>MONTH TWO: Development</h2>
     <p>Month 2 was all about development. We implemented the core features of the platform, including the order management system and the restaurant interface.</p>
   </section>
 
   <section id="month3" class="monthly-progress">
-    <h2>Month 3: Testing & Finalization</h2>
+    <h2>MONTH THREE: Testing & Finalization</h2>
     <p>In the final month, we focused on testing, debugging, and polishing the system, ensuring that the platform was user-friendly and ready for deployment.</p>
   </section>
 
